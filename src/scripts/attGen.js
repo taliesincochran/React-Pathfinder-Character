@@ -10,6 +10,7 @@ export function rollScores(){
 		for (let j = 0; j < 4; j++){
 			tempValues.push(baseFunction.roll(6));
 		}
+		console.log(tempValues);
 		tempValues.sort();
 		tempValues.splice(0,1);
 		console.log('Temp Values spliced ', tempValues)
